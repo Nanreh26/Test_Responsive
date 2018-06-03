@@ -1,4 +1,4 @@
-const form = document.getElementByID('form')
+const form = document.getElementByID('form');
 
 if(form){
   form.addEventListener('submit', () => {
