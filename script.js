@@ -1,4 +1,4 @@
-const form = document.getElementByID('form');
+const form = document.getElementById('form');
 
 
 if(form){
