@@ -1,5 +1,6 @@
 const form = document.getElementById('form');
 
+
 if(form){
   form.addEventListener('submit', () => {
     let width = form.querySelector('#width'),
