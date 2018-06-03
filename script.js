@@ -1,6 +1,6 @@
 const form = document.getElementByID('form')
 
-id(form) {
+if(form){
   form.addEventListener('submit', () => {
     let width = form.querySelector('#width'),
         height = form.querySelector('#height'),
