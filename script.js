@@ -11,8 +11,7 @@ if(form){
       width = width.value
       height = height.value
       url = url.value
-    }
-    
+    }    
     //window.open(url, url, 'innerWidth=${width},innerHeight=${height}')
     window.open(url, url, '320,640')
   })
