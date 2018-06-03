@@ -4,7 +4,7 @@ if(form){
   form.addEventListener('submit', () => {
     let width = form.querySelector('#width'),
         height = form.querySelector('#height'),
-        url = form.querySelector('#url'),
+        url = form.querySelector('#url')
         
     if(width && height && url){
       width = width.value
