@@ -13,5 +13,6 @@ if(form){
     }
     
     window.open(url, url, 'innerWidth=${width},innerHeight=${height}')
+    
   })
 }
