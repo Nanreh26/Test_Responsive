@@ -12,7 +12,6 @@ if(form){
       height = height.value
       url = url.value
     }    
-    //window.open(url, url, 'innerWidth=${width},innerHeight=${height}')
     window.open(url, url, "width=${width},height=${height}")
   })
 }
