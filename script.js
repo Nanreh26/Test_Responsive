@@ -13,6 +13,6 @@ if(form){
       url = url.value
     }    
     //window.open(url, url, 'innerWidth=${width},innerHeight=${height}')
-    window.open(url, url, '320,640')
+    window.open(url, url, "width=${width},height=${height}")
   })
 }
